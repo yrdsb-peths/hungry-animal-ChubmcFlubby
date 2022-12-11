@@ -1,7 +1,15 @@
 #BlueJ class context
 comment0.target=Elephant
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Elephant\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ This\ is\ our\ main\ character\ -\ the\ Elephant\r\n\ \r\n\ @author\ (Matthew\ Chiu)\ \r\n\ @version\ (Version\ 1\ -\ December\ 2022)\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Elephant\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-numComments=2
+comment1.target=Elephant()
+comment1.text=\r\n\ Counstructor\ -\ The\ code\ that\ gets\ run\ one\ time\ when\ object\ is\ created.\r\n
+comment2.params=
+comment2.target=void\ animateElephant()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Elephant\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ eat()
+comment4.text=\r\n\ Eats\ the\ apple\ and\ spawns\ a\ new\ one\ if\ an\ apple\ is\ eaten.\r\n
+numComments=5

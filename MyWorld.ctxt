@@ -1,7 +1,16 @@
 #BlueJ class context
 comment0.target=MyWorld
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ This\ is\ the\ file\ that\ initiates\ the\ world\ of\ the\ Hungry\ Elephant\ Game.\ This\ is\ the\ first\ comp-sci\ assignment.\r\n\ @author\ (Matthew\ Chiu)\ \r\n\ @version\ (1.0.0\ -\ December\ 2022)\r\n
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld\ here.\r\n\ This\ is\ the\ file\ that\ initiates\ the\ world\ of\ the\ Hungry\ Elephant\ Game.\ This\ is\ the\ first\ comp-sci\ assignment.\r\n\ @author\ (Matthew\ Chiu)\ \r\n\ @version\ (Version\ 1\ -\ December\ 2022)\r\n
 comment1.params=
 comment1.target=MyWorld()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
-numComments=2
+comment2.params=
+comment2.target=void\ gameOver()
+comment2.text=\r\n\ End\ the\ game\ when\ the\ user\ fails\ to\ catch\ an\ apple.\r\n\ Displays\ a\ "Game\ Over"\ text\ on\ screen.\r\n
+comment3.params=
+comment3.target=void\ increaseScore()
+comment3.text=\r\n\ Increases\ the\ player's\ score.\r\n
+comment4.params=
+comment4.target=void\ createApple()
+comment4.text=\r\n\ Creates\ a\ new\ apple\ at\ a\ random\ location\ on\ the\ top\ of\ the\ screen.\r\n
+numComments=5
