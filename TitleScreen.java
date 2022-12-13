@@ -44,23 +44,12 @@ public class TitleScreen extends World
     {
         Elephant elephant = new Elephant();
         addObject(elephant,460,98);
-        elephant.setLocation(394,80);
+        elephant.setLocation(460,80);
         Label label = new Label("Use \u2190 or \u2192 to move", 50);
         addObject(label,228,183);
-        label.setLocation(327,207);
-        label.setLocation(416,211);
-        label.setLocation(323,249);
-        label.setLocation(334,263);
-        label.setLocation(321,233);
-        Label label2 = new Label("Press Spcaebar to Start", 40);
-        addObject(label2,277,309);
-        label.setLocation(287,214);
-        label2.setLocation(333,303);
-        elephant.setLocation(485,79);
-        elephant.setLocation(439,90);
-        label.setLocation(368,210);
-        label2.setLocation(349,298);
-        label.setLocation(333,217);
-        label2.setLocation(351,311);
+        label.setLocation(310,207);
+        Label label2 = new Label("Press Spacebar to Start", 40);
+        addObject(label2,321,310);
+        label2.setLocation(310,304);
     }
 }
