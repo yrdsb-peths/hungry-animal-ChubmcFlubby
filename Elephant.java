@@ -15,6 +15,7 @@ public class Elephant extends Actor
     //Direction that the elephant is facing.
     String facing = "right";
     SimpleTimer animationTimer = new SimpleTimer();
+    int speed = 2;
     
     /**
      * Counstructor - The code that gets run one time when object is created.
@@ -33,6 +34,7 @@ public class Elephant extends Actor
             idleLeft[i].mirrorHorizontally();
             idleLeft[i].scale(100, 100);
         }
+        
         //Speed of elephant's animation.
         animationTimer.mark();
         
@@ -73,13 +75,13 @@ public class Elephant extends Actor
     {
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-2);
+            move(-speed);
             facing = "left";
         }
         
         else if(Greenfoot.isKeyDown("right"))
         {
-            move(2);
+            move(speed);
             facing = "right";
         }
         
@@ -88,6 +90,11 @@ public class Elephant extends Actor
         
         //Animates the elephant.
         animateElephant();
+    }
+    
+    public void setSpeed(int theSpeed)
+    {
+        speed = theSpeed;
     }
     
     /**

@@ -11,6 +11,7 @@ public class MyWorld extends World
     public int score = 0;
     Label scoreLabel;
     int level = 1;
+    Elephant elephant = new Elephant();
     
     /**
      * Constructor for objects of class MyWorld.
@@ -22,7 +23,6 @@ public class MyWorld extends World
         super(600, 400, 1, false);
         
         //Creates the elephant object.
-        Elephant elephant = new Elephant();
         addObject(elephant, 300, 300);
         
         //Creats a label to keep track of the player's score.
@@ -40,6 +40,7 @@ public class MyWorld extends World
     {
         Label gameOverLabel = new Label("Game Over!", 100);
         addObject(gameOverLabel, 300, 200);
+        elephant.setSpeed(0);
     }
     
     /**
