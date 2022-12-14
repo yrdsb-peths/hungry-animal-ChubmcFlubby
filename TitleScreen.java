@@ -14,11 +14,13 @@ public class TitleScreen extends World
      * Constructor for objects of class TitleScreen.
      * 
      */
+    
     public TitleScreen()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-
+        GreenfootSound music = new GreenfootSound("winter.mp3");
+        music.playLoop();
         addObject(titleLabel, 200, 100);
         prepare();
     }
