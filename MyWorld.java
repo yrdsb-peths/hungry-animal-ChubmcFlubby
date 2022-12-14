@@ -1,7 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class MyWorld here.
  * This is the file that initiates the world of the Hungry Elephant Game. This is the first comp-sci assignment.
  * @author (Matthew Chiu) 
  * @version (Version 1 - December 2022)
